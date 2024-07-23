@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Love+Light&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Love+Light&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(255, 223, 214) !important;
+  color: #102c57;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  flex-wrap: wrap !important;
+  box-shadow: #e3a5c7 1.95px 1.95px 2.6px;
+}
+header .logo .logo-svg a {
+  text-decoration: none;
+  color: #694f8e;
+  font-weight: bold;
+  font-size: 28px;
+  text-shadow: 0 0 3px #b692c2 !important;
+}
+header .logo .logo-svg .bi-amd {
+  font-size: 28px;
+  color: #694f8e;
+  font-weight: bold;
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+}
+header .logo .logo-svg a:hover,
+header .logo .logo-svg .logo-svg-bi:hover {
+  color: #102c57;
+}
+header .cat-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear !important;
+}
+header .cat-list a {
+  text-decoration: none;
+  color: #694f8e;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+header .cat-list a:hover {
+  color: #102c57;
+}
+
+.menu-svg {
+  cursor: pointer;
+  font-weight: bold;
+  color: #102c57;
+}
+
+/* Main Content */
+main {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+main .portfolio-content {
+  width: 400px;
+  height: 300px;
+}
+main .portfolio-img {
+  width: 400px;
+  height: 300px;
+}
+main h1,
+h2 {
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #694f8e;
+  padding: 10px 0px;
+}
+main p {
+  letter-spacing: 2px;
+  padding: 20px 0px;
+}
+main img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: #694f8e 0px 3px 8px, #694f8e 0px 3px 18px, #694f8e 0px 3px 38px;
+}
+
+/* Carier Objective */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 20px;
+  margin: 40px auto;
+  width: 100% !important;
+  height: 100%;
+}
+section div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .career {
+  width: 31% !important;
+  height: 400px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+section svg {
+  color: #694f8e !important;
+  text-shadow: 0 0 3px #b692c2 !important;
+}
+section .career h1 {
+  padding: 20px 0px;
+  color: #694f8e;
+}
+section .career p {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+section .techSkills ul li {
+  font-weight: 600;
+  letter-spacing: 2px;
+  list-style-type: circle;
+}
+section .techSkills h1 {
+  padding: 20px 0px;
+  color: #694f8e;
+}
+
+section .techSkills {
+  width: 31% !important;
+  height: 400px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.skillObj {
+  font-weight: bold;
+  color: #694f8e;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px #b692c2;
+  font-size: 48px;
+}
+/* Languages and Strengths */
+.lng-know li {
+  font-weight: 600;
+  letter-spacing: 2px;
+  list-style-type: circle;
+}
+
+/* Self Declaration */
+.self-declaration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 20px;
+}
+.self-declaration img {
+  width: 25%;
+  height: 25%;
+  box-shadow: #694f8e 0px 3px 8px, #694f8e 0px 3px 18px, #694f8e 0px 3px 38px;
+}
+.self-declaration div {
+  width: 40%;
+  height: 40%;
+  padding: 20px 20px;
+  text-align: center;
+}
+.self-declaration-content p {
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #102c57;
+}
+
+footer {
+  font-weight: 600;
+  color: #694f8e;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+footer span,
+footer h3 {
+  font-size: 16px;
+}
+/* Media Queries */
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+  header .logo {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  header .cat-list {
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px 0px;
+    display: none;
+    transition: all 0.3s linear !important;
+  }
+  /* Main content */
+  main {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  main .portfolio-content {
+    order: 2;
+    margin: 20px 0px;
+    width: 100%;
+  }
+  main .portfolio-img {
+    text-align: center;
+  }
+  /* Carrier Objective */
+  section .techSkills {
+    flex-basis: 100% !important;
+    height: auto;
+  }
+  section .career {
+    flex-basis: 100% !important;
+    height: auto;
+  }
+  section .techSkills {
+    margin-top: 40px;
+  }
+  /* Self Declaration */
+  .self-declaration img {
+    width: 100%;
+    height: 100%;
+  }
+  .self-declaration .self-declaration-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  main {
+    flex-direction: column !important;
+  }
+  main .portfolio-content {
+    order: 2;
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 470px) {
+  main {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 20px 20px;
+  }
+  main img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  main .portfolio-content {
+    order: 2;
+    margin: 40px 0px;
+    width: 100%;
+  }
+  main .portfolio-img {
+    order: 1;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+}
+
+/* Min Media Queries */
+@media (min-width: 1200px) {
+  main {
+    width: 1000px;
+  }
+  main .portfolio-content {
+    width: 700px;
+    height: 300px;
+    padding-top: 20px;
+  }
+  main .portfolio-img {
+    width: 300px;
+    height: 300px;
+    padding-left: 80px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  main {
+    width: 700px;
+  }
+  main .portfolio-content {
+    width: 400px;
+    height: 300px;
+    padding-top: 20px;
+  }
+  main .portfolio-img {
+    width: 200px;
+    height: 200px;
+    padding-left: 80px;
+  }
+  main .portfolio-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  section .career {
+    height: 480px;
+  }
+  section .techSkills {
+    height: 480px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  /* Main Content */
+  main {
+    width: 900px;
+    margin-right: 0px;
+  }
+  main .portfolio-content {
+    width: 500px;
+    height: 300px;
+    padding-top: 20px;
+  }
+  main .portfolio-img {
+    width: 250px;
+    height: 300px;
+    padding-left: 40px;
+  }
+  main .portfolio-img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  /* Carier  */
+  section {
+    width: 100%;
+  }
+  section .career {
+    width: 30%;
+    height: 400px;
+  }
+  section h1 {
+    font-size: 24px;
+  }
+  section .techSkills {
+    width: 30%;
+    height: 400px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1020px) {
+  section {
+    width: 100% !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  section .techSkills {
+    width: 40%;
+    height: 400px;
+  }
+  section .career {
+    width: 40%;
+    height: 400px;
+  }
+}
+@media (min-width: 801px) {
+  .menu-svg {
+    display: none;
+  }
+  main {
+    margin-top: 200px;
+  }
+  section .career {
+    margin-right: 20px;
+  }
+}
