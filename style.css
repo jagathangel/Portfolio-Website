@@ -278,6 +278,11 @@ footer h3 {
     width: 100%;
   }
 }
+.selfImgProfile {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 30px;
+}
 
 @media (max-width: 670px) {
   main {
